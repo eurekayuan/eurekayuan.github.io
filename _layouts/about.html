@@ -12,6 +12,8 @@ layout: default
         </header>
 
         <article>
+          <h2>About</h2>
+
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -45,8 +47,8 @@ layout: default
           {%- include news.html %}
           {%- endif %}
           {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
+          <!-- Selected papers -->
+          {%- include selected_papers.html %}
           {%- endif %}
           {%- if page.social %}
           <!-- Social -->
