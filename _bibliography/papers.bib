@@ -1,61 +1,65 @@
-@comment{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@article{yuan2024rigor,
+  title={RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content},
+  author={Yuan, Zhuowen and Xiong, Zidi and Zeng, Yi and Yu, Ning and Jia, Ruoxi and Song, Dawn and Li, Bo},
+  journal={ICML},
+  year={2024},
   selected={true}
 }
 
-@inproceedings{murhekar2023incentives,
-  title={Incentives in Federated Learning: Equilibria, Dynamics, and Mechanisms for Welfare Maximization},
-  author={Murhekar, Aniket and Yuan, Zhuowen and Chaudhury, Bhaskar Ray and Li, Bo and Mehta, Ruta},
-  abstract={Federated learning (FL) has emerged as a powerful scheme to facilitate the collaborative learning of models amongst a set of agents holding their own private data. Although the agents benefit from the global model trained on shared data, by participating in federated learning, they may also incur costs (related to privacy and communication) due to data sharing. In this paper, we model a collaborative FL framework, where every agent attempts to achieve an optimal trade-off between her learning payoff and data sharing cost. We show the existence of Nash equilibrium (NE) under mild assumptions on agents' payoff and costs. Furthermore, we show that agents can discover the NE via best response dynamics. However, some of the NE may be bad in terms of overall welfare for the agents, implying little incentive for some fraction of the agents to participate in the learning. To remedy this, we design a budget-balanced mechanism involving payments to the agents, that ensures that any $p$-mean welfare function of the agents' utilities is maximized at NE. In addition, we introduce a FL protocol FedBR-BG that incorporates our budget-balanced mechanism, utilizing best response dynamics. Our empirical validation on MNIST and CIFAR-10 substantiates our theoretical analysis. We show that FedBR-BG outperforms the basic best-response-based protocol without additional incentivization, the standard federated learning protocol FedAvg, as well as a recent baseline MWFed in terms of achieving superior $p$-mean welfare.},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-  pdf={https://arxiv.org/pdf/2207.12263.pdf},
-  year={2023},
+@article{yuan2024shine,
+  title={SHINE: Shielding Backdoors in Deep Reinforcement Learning},
+  author={Yuan, Zhuowen and Guo, Wenbo and Jia, Jinyuan and Li, Bo and Song, Dawn},
+  journal={ICML},
+  year={2024},
   selected={true}
 }
 
-@inproceedings{jia2023fedgame,
+@article{chaudhury2024fair,
+  title={Fair Federated Learning via the Proportional Veto Core},
+  author={Chaudhury, Bhaskar Ray and Murhekar, Aniket and Yuan, Zhuowen and Li, Bo and Mehta, Ruta and Procaccia, Ariel D.},
+  journal={ICML},
+  year={2024},
+  selected={true}
+}
+
+@article{jia2023fedgame,
   title={FedGame: A Game-Theoretic Defense against Backdoor Attacks in Federated Learning},
-  author={Jinyuan Jia* and Zhuowen Yuan* and Dinuka Sahabandu and Luyao Niu and Arezoo Rajabi and Bhaskar Ramasubramanian and Bo Li and Radha Poovendran},
+  author={Jinyuan Jia and Zhuowen Yuan and Dinuka Sahabandu and Luyao Niu and Arezoo Rajabi and Bhaskar Ramasubramanian and Bo Li and Radha Poovendran},
   abstract={Federated learning (FL) provides a distributed training paradigm where multiple clients can jointly train a global model without sharing their local data. However, recent studies have shown that FL offers an additional surface for backdoor attacks. For instance, an attacker can compromise a subset of clients and thus corrupt the global model to misclassify an input with a backdoor trigger as the adversarial target. Existing defenses for FL against backdoor attacks usually detect and exclude the corrupted information from the compromised clients based on a static attacker model. However, such defenses are inadequate against dynamic attackers who strategically adapt their attack strategies. To bridge this gap, we model the strategic interactions between the defender and dynamic attackers as a minimax game. Based on the analysis of the game, we design an interactive defense mechanism FedGame. We prove that under mild assumptions, the global model trained with FedGame under backdoor attacks is close to that trained without attacks. Empirically, we compare FedGame with multiple state-of-the-art baselines on several benchmark datasets under various attacks. We show that FedGame can effectively defend against strategic attackers and achieves significantly higher robustness than baselines. Our code is available at: https://github.com/AI-secure/FedGame.},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  journal={NeurIPS},
   year={2023},
-  pdf={https://openreview.net/forum?id=nX0zYBGEka},
+  pdf={https://proceedings.neurips.cc/paper_files/paper/2023/file/a6678e2be4ce7aef9d2192e03cd586b7-Paper-Conference.pdf},
   code={https://github.com/AI-secure/FedGame},
   selected={true}
 }
 
+@article{murhekar2023incentives,
+  title={Incentives in Federated Learning: Equilibria, Dynamics, and Mechanisms for Welfare Maximization},
+  author={Murhekar, Aniket and Yuan, Zhuowen and Chaudhury, Bhaskar Ray and Li, Bo and Mehta, Ruta},
+  abstract={Federated learning (FL) has emerged as a powerful scheme to facilitate the collaborative learning of models amongst a set of agents holding their own private data. Although the agents benefit from the global model trained on shared data, by participating in federated learning, they may also incur costs (related to privacy and communication) due to data sharing. In this paper, we model a collaborative FL framework, where every agent attempts to achieve an optimal trade-off between her learning payoff and data sharing cost. We show the existence of Nash equilibrium (NE) under mild assumptions on agents' payoff and costs. Furthermore, we show that agents can discover the NE via best response dynamics. However, some of the NE may be bad in terms of overall welfare for the agents, implying little incentive for some fraction of the agents to participate in the learning. To remedy this, we design a budget-balanced mechanism involving payments to the agents, that ensures that any $p$-mean welfare function of the agents' utilities is maximized at NE. In addition, we introduce a FL protocol FedBR-BG that incorporates our budget-balanced mechanism, utilizing best response dynamics. Our empirical validation on MNIST and CIFAR-10 substantiates our theoretical analysis. We show that FedBR-BG outperforms the basic best-response-based protocol without additional incentivization, the standard federated learning protocol FedAvg, as well as a recent baseline MWFed in terms of achieving superior $p$-mean welfare.},
+  journal={NeurIPS},
+  pdf={https://proceedings.neurips.cc/paper_files/paper/2023/file/39b77b5e422b4e070e2811b73ea9bcf7-Paper-Conference.pdf},
+  year={2023},
+  selected={true}
+}
 
-@inproceedings{yuan2022sec,
+@article{yuan2022sec,
   title={SecretGen: Privacy Recovery on Pre-trained Models via Distribution Discrimination},
   author={Yuan, Zhuowen and Wu, Fan and Long, Yunhui and Xiao, Chaowei and Li, Bo},
   abstract={Transfer learning through the use of pre-trained models has become a growing trend for the machine learning community. Consequently, numerous pre-trained models are released online to facilitate further research. However, it raises extensive concerns on whether these pre-trained models would leak privacy-sensitive information of their training data. Thus, in this work, we aim to answer the following questions: "Can we effectively recover private information from these pre-trained models? What are the sufficient conditions to retrieve such sensitive information?" We first explore different statistical information which can discriminate the private training distribution from other distributions. Based on our observations, we propose a novel private data reconstruction framework, SecretGen, to effectively recover private information. Compared with previous methods which can recover private data with the ground true prediction of the targeted recovery instance, SecretGen does not require such prior knowledge, making it more practical. We conduct extensive experiments on different datasets under diverse scenarios to compare SecretGen with other baselines and provide a systematic benchmark to better understand the impact of different auxiliary information and optimization operations. We show that without prior knowledge about true class prediction, SecretGen is able to recover private data with similar performance compared with the ones that leverage such prior knowledge. If the prior knowledge is given, SecretGen will significantly outperform baseline methods. We also propose several quantitative metrics to further quantify the privacy vulnerability of pre-trained models, which will help the model selection for privacy-sensitive applications. Our code is available at: https://github.com/AI-secure/SecretGen.},
-  booktitle={European Conference on Computer Vision (ECCV) 2022},
+  journal={ECCV},
+  year={2022},
   pdf={https://arxiv.org/pdf/2207.12263.pdf},
   code={https://github.com/AI-secure/SecretGen},
   selected={true}
 }
 
-
-@inproceedings{yuan2022ongen,
+@article{yuan2022ongen,
   title={On Generating Identifiable Virtual Faces},
   author={Yuan, Zhuowen and You, Zhengxin and Li, Sheng and Zhang, Xinpeng and Qian, Zhenxin and Alex C. Kot},
   abstract={Face anonymization with generative models have become increasingly prevalent since they sanitize private information by generating virtual face images, ensuring both privacy and image utility. Such virtual face images are usually not identifiable after the removal or protection of the original identity. In this paper, we formalize and tackle the problem of generating identifiable virtual face images. Our virtual face images are visually different from the original ones for privacy protection. In addition, they are bound with new virtual identities, which can be directly used for face recognition. We propose an Identifiable Virtual Face Generator (IVFG) to generate the virtual face images. The IVFG projects the latent vectors of the original face images into virtual ones according to a user specific key, based on which the virtual face images are generated. To make the virtual face images identifiable, we propose a multi-task learning objective as well as a triplet styled training strategy to learn the IVFG. We evaluate the performance of our virtual face images using different face recognizers on diffident face image datasets, all of which demonstrate the effectiveness of the IVFG for generate identifiable virtual face images.},
-  booktitle={the 30th ACM International Conference on Multimedia (ACM MM) 2022 (Oral Presentation)},
+  journal={ACM MM},
+  year={2022},
   pdf={https://arxiv.org/pdf/2110.07986.pdf},
   selected={true}
 }
