@@ -14,13 +14,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a third-year Ph.D. candidate in Computer Science at University of Illinois Urbana-Champaign, advised by Prof. [Bo Li](https://aisecure.github.io/) of [Secure Learning Lab](https://aisecure.github.io/GROUP/index.html). My recent research focuses on the trustworthiness of foundation models and agents.
+I'm a fourth-year Ph.D. candidate in Computer Science at University of Illinois Urbana-Champaign, advised by Prof. [Bo Li](https://aisecure.github.io/) of [Secure Learning Lab](https://aisecure.github.io/GROUP/index.html). My research focuses on the trustworthiness of foundation models and agents.
 
 Before that, I received my B.S. in Information Security at Fudan University. My undergraduate advisors are Prof. [Sheng Li](https://blazelisheng.github.io/) and Prof. [Yuan Zhang](https://yuanxzhang.github.io/).
 
-Besides research, I enjoy playing tennis🎾, guitar🎸 and piano🎹. My favourite tennis player is Roger Federer. 
-
-My lovely girlfriend👧🏻 [Jiping](https://www.linkedin.com/in/jiping-wang-108311193/) is also pursuing a Ph.D. Her research focuses on tensor data and dimension reduction.
-
+Besides research, I enjoy playing tennis🎾, guitar🎸 and piano🎹. My favourite tennis player is Roger Federer.
 
 (Last Update: 12/25/2024)
